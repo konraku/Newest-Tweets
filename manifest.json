@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Newest Tweets",
+    "version": "1.0",
+    "description": "自動で最新ツイート表示に切り替える",
+    "content_scripts": [{
+        "matches": ["https://twitter.com/*"],
+        "js": ["latest.js"]
+    }]
+}
