@@ -5,3 +5,4 @@ if (location.href !== NEWEST_URL) {
     // 最新ツイート順に切り替える
     location.href = NEWEST_URL;
 }
+
